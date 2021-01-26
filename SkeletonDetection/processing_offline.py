@@ -98,14 +98,14 @@ if __name__ == "__main__":
             '--input',
             dest='input_dir',
             type=str,
-            default='D:\Codes\ToyStory\Pipeline\Data\Data',
+            default='D:\Codes\ToyStory\Data\Data',
             help='Data Directory')
         parser.add_argument(
             '-o',
             '--output',
             dest='output_dir',
             type=str,
-            default='D:\Codes\ToyStory\Pipeline\Data\ProcessedData',
+            default='D:\Codes\ToyStory\Data\ProcessedData',
             help='output directory')
         parser.add_argument(
             "--image_path",
