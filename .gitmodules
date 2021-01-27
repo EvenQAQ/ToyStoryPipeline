@@ -1,6 +1,0 @@
-[submodule "submodules/lightweight-OpenPose-3D"]
-	path = submodules/lightweight-OpenPose-3D
-	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch.git
-[submodule "submodules/lightweight-OpenPose"]
-	path = submodules/lightweight-OpenPose
-	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch.git
