@@ -1,21 +1,15 @@
 [submodule "LKFilters"]
 	path = LKFilters
-	url = https://gitee.com/EvenQAQ/Lucas-Kanade-tracking-and-Correlation-Filters.git
-[submodule "toy_unity"]
-	path = toy_unity
-	url = https://gitee.com/EvenQAQ/toy_unity.git
+	url = https://github.com/ziliHarvey/Lucas-Kanade-tracking-and-Correlation-Filters.git
 [submodule "handtracking"]
 	path = handtracking
-	url = https://gitee.com/EvenQAQ/handtracking.git
+	url = https://github.com/victordibia/handtracking.git
 [submodule "KalmanFilter"]
 	path = KalmanFilter
 	url = https://github.com/rlabbe/filterpy.git
-[submodule "hand_detection"]
-	path = hand_detection
-	url = https://gitee.com/tianya520/hand_detection.git
-[submodule "MultiHandtracking"]
-	path = MultiHandtracking
-	url = https://gitee.com/EvenQAQ/Multi-HandTrackingGPU.git
 [submodule "lightweight-OpenPose"]
 	path = lightweight-OpenPose
-	url = https://gitee.com/EvenQAQ/lightweight-open-pose.git
+	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch.git
+[submodule "lightweight-OpenPose"]
+	path = lightweight-OpenPose-3D
+	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch.git
