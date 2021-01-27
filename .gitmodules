@@ -1,15 +1,6 @@
-[submodule "LKFilters"]
-	path = LKFilters
-	url = https://github.com/ziliHarvey/Lucas-Kanade-tracking-and-Correlation-Filters.git
-[submodule "handtracking"]
-	path = handtracking
-	url = https://github.com/victordibia/handtracking.git
-[submodule "KalmanFilter"]
-	path = KalmanFilter
-	url = https://github.com/rlabbe/filterpy.git
-[submodule "lightweight-OpenPose"]
-	path = lightweight-OpenPose
-	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch.git
-[submodule "lightweight-OpenPose"]
-	path = lightweight-OpenPose-3D
+[submodule "submodules/lightweight-OpenPose-3D"]
+	path = submodules/lightweight-OpenPose-3D
 	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch.git
+[submodule "submodules/lightweight-OpenPose"]
+	path = submodules/lightweight-OpenPose
+	url = https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch.git
