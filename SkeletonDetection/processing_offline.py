@@ -186,10 +186,9 @@ if __name__ == "__main__":
         # Processing Image
         datum = op.Datum()
         for i in range(1, frames_total+1):
-            if i != 3957:
-                continue
             print(str(i) + '/' + str(frames_total))
-            f.write('index: ' + str(i) + '\n')
+            f.write('\n')
+            f.write('Indexing: ' + str(i) + '\n')
             color_frame = cv2.imread(input_dir + '/' + color_frame_name(i))
 
             # Processing OpenPose

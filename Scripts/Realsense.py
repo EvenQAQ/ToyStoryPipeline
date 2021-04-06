@@ -16,7 +16,8 @@ import pyrealsense2 as rs
 class Realsense():
     """ 调用 realsense sdk 开发的相机代码 """
     # def __init__(self, width=640, height=480, fps=30):
-    def __init__(self, resolution=(640, 480), fps=30):
+
+    def __init__(self, resolution=(640, 480), fps=60):
         """ 可自定义相机分辨率 (col x row)
 
         intelRealsense fact sheet:
@@ -64,14 +65,17 @@ class Realsense():
             for i, device in enumerate(device_list):
                 i += 1
                 device_name = device.get_info(rs.camera_info.name)
-                print("found [{0}] device(s) required :: [{1}]".format(i, device_name))
+                print("found [{0}] device(s) required :: [{1}]".format(
+                    i, device_name))
                 print("resolution :: {0}".format(resolution))
 
     def _configure_stream(self, col, row, fps):
         """ 配置深度和彩色数据流 """
         self.config = rs.config()
-        self.config.enable_stream(rs.stream.depth, col, row, rs.format.z16, fps)
-        self.config.enable_stream(rs.stream.color, col, row, rs.format.bgr8, fps)
+        self.config.enable_stream(
+            rs.stream.depth, col, row, rs.format.z16, fps)
+        self.config.enable_stream(
+            rs.stream.color, col, row, rs.format.bgr8, fps)
 
     def _start_pipeline(self):
         """ 创建 realsense 管道，简化使用者与设备的交互 """
