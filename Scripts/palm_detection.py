@@ -26,6 +26,7 @@ for idx, file in enumerate(file_list):
 
     for rect in results.hand_rects:
         print(rect)
+        mp_drawing.draw_detection(annotated_image, rect)
     for hand_landmarks in results.multi_hand_landmarks:
         print('hand_landmarks:', hand_landmarks)
         print(
